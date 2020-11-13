@@ -49,5 +49,6 @@ def player_stats(player_name)
       return keys[:players].map  {|player| player[0]}
       binding.pry
     end
+      binding.pry
   end
 end
