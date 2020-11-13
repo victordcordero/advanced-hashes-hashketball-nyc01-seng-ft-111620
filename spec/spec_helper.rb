@@ -47,6 +47,7 @@ def player_stats(player_name)
   game_hash.each do |home_away, keys|
     if keys[:player_name] == player_name
       return keys[:players].map  {|player| player[0]}
+      binding.pry
     end
   end
 end
