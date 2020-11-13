@@ -60,7 +60,7 @@ def big_shoe_rebounds
     keys[:players].each do |player|
       size = player[:shoe]
       if size >= biggest
-      rebounds = player[:rebounds] - 1
+      rebounds = player[:rebounds]
       end
     end
   end
